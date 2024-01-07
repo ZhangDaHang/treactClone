@@ -84,14 +84,18 @@ li {
     /* align-items: center; */
 }
 
-.purple__button--signup{
+.purple__button{
     border-radius: 9999px;
     margin: 0;
-    /* width: 10px; */
+    width: 9rem;
+    height: 3rem;
     color: white;
     background-color: #6415FF;
     align-items: center;
     justify-content: center;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .logo__text{
@@ -196,11 +200,12 @@ FEATURES
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 5rem;
+    margin: 2rem;
+    /* margin-bottom: 2rem; */
 }
 
 h2{
-    font-size: 60px;
+    font-size: 54px;
     font-weight: 1000;
     margin: 0;
     color: #094173;
@@ -270,7 +275,7 @@ h4{
 }
 
 .features__text__container{
-
+    padding: 10px 0;
 }
 
 /* 
@@ -281,11 +286,80 @@ Quality of Work
     display: flex;
     justify-content: center;
     flex-flow: row;
-    margin: 11px;
+    margin: 4rem 1rem;
     max-width: 1300px;
 }
 
 .qual__work__img{
-    height: 500px;
-    width: 800px;
+    width: 50%;
+    border: black;
+    border-width: 2px;
+    padding-left: 2rem;
 }
+
+/* .qual__work__text{
+    width: 40%;
+} */
+
+.qual__work__desc{
+    font-size: 18px;
+    color: #6e6464;
+}
+
+/* STEPS */
+
+.steps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+}
+
+.steps__img{
+    width: 50%;
+}
+
+.steps__desc{
+    margin: 10px 0;
+    padding-left: 3rem;
+}
+
+.steps__list__item{
+    display: flex;
+}
+
+.steps__list{
+    margin-top: 2rem;
+}
+
+.steps__list__num{
+    font-size: 34px;
+    color: #e3dada;
+    justify-content: center;
+    font-weight: bold;
+    width: 10%;
+}
+
+.steps__list__item__text{
+    margin-left: 1rem;
+}
+
+h5{
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h6{
+    margin: 0;
+    font-size: 20px;
+    color: #756f6e;
+}
+
+.steps__text{
+    margin: 1rem 0;
+    padding-bottom: 1rem;
+    font-size: 14px;
+}
+
+
+
